@@ -13,7 +13,7 @@ a[href $= ".pdf"]{
 a[href *= "exemplo"]{
   font-weight: bold;
 }
-div[class ^= "ativo"] {
+div[class ~= "ativo"] {
   background-color: lightblue;
 }
 p[lang |="pt"] {
